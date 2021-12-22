@@ -9,9 +9,9 @@ namespace Tydzień_3_LEKCJA_23_Praca_Domowa
     class Program
     {
         const int MIN_NUMBER = 0;
-        const int MAX_NUMBER = 100
+        const int MAX_NUMBER = 100;
 
-        Random random = new Random();
+        static Random random = new Random();
         static void Main(string[] args)
         {
             try
