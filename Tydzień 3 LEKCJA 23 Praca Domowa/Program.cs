@@ -15,6 +15,16 @@ namespace Tydzień_3_LEKCJA_23_Praca_Domowa
         static void Main(string[] args)
         {
             try
+
+
+
+
+
+
+
+
+
+
             {
                 Game();
             }
