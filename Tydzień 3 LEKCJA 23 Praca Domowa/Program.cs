@@ -8,6 +8,8 @@ namespace Tydzień_3_LEKCJA_23_Praca_Domowa
 {
     class Program
     {
+        const int MIN_NUMBER = 0;
+        const int MAX_NUMBER = 100;
         static void Main(string[] args)
         {
             try
@@ -30,8 +32,6 @@ namespace Tydzień_3_LEKCJA_23_Praca_Domowa
             //Następnie użytkownik próbuje odgadnąć wylosowaną liczbę.
             //Po każdej próbie odgadnięcia liczby, użytkownik dostaje odpowiedni komunikat (Twoja liczba jest za mała/za duża lub odgadłeś wylosowaną liczbę w x próbach).
             Random random = new Random();
-            const int MIN_NUMBER = 0;
-            const int MAX_NUMBER = 100;
             int randomNumber = random.Next(MIN_NUMBER, MAX_NUMBER+1);
             int userNumber;
             bool numberFound = false;
